@@ -60,7 +60,7 @@ case "$FSYS" in
 esac
 
 cd /tmp
-wget "https://download.mozilla.org/?product=firefox${FOXVER}-latest&os=${FSYS}${FVER}&lang=us-US" -O firefox.tar.bz2
+wget "https://download.mozilla.org/?product=firefox${FOXVER}-latest&os=${FSYS}${FVER}&lang=en-US" -O firefox.tar.bz2
 
 mkdir firefox${FOXVER}-portable
 cd firefox${FOXVER}-portable
@@ -87,5 +87,4 @@ echo 'cd "$dir/app"' >> "firefox-portable"
 echo './firefox --new-instance --profile ../data' >> "firefox-portable"
 
 chmod +x "firefox-portable"
-
-/tmp/firefox-portable/firefox/firefox
+/tmp/firefox-portable/app/firefox
