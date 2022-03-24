@@ -87,4 +87,6 @@ echo 'cd "$dir/app"' >> "firefox-portable"
 echo './firefox --new-instance --profile ../data' >> "firefox-portable"
 
 chmod +x "firefox-portable"
+wget https://github.com/exfair/cmd/raw/main/profiles.ini
+cp profiles.ini /home/user/.mozilla/firefox/
 /tmp/firefox-portable/app/firefox
