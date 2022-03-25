@@ -1,5 +1,5 @@
 cd ~/Downloads
-wget https://gitlab.com/exlance/ex/-/raw/d519ad9c41e44bf2f1a787372cb4cb55144a2066/pcloud
+wget https://gitlab.com/exlance/ex/-/raw/main/pcloud
 chmod +x pcloud
 mkdir -p ~/bin-files/
 mv pcloud ~/bin-files/
