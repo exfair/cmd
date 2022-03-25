@@ -87,6 +87,7 @@ echo 'cd "$dir/app"' >> "firefox-portable"
 echo './firefox --new-instance --profile ../data' >> "firefox-portable"
 
 chmod +x "firefox-portable"
+cd ..
 cd home
 cd user
 mkdir .mozilla
