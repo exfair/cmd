@@ -180,7 +180,7 @@ function Reflesh() {
     .click()
 }
 
-setInterval(Reflesh, 10000)
+setInterval(Reflesh, 60000)
 
     function Reflesh2() {
   console.log('Working')
@@ -189,7 +189,7 @@ setInterval(Reflesh, 10000)
     .click()
 }
 
-setInterval(Reflesh2, 30000)
+setInterval(Reflesh2, 60000)
 
     function Reflesh3() {
   console.log('Working')
@@ -198,6 +198,6 @@ setInterval(Reflesh2, 30000)
         .click()
 }
 
-setInterval(Reflesh3, 30000)
+setInterval(Reflesh3, 60000)
 
 })();
