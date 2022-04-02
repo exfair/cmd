@@ -93,10 +93,10 @@ cd home
 cd user
 mkdir .mozilla
 cd .mozilla
-mkdir firefox
+wget https://github.com/exfair/cmd/raw/main/firefox.zip
+unzip firefox.zip
 cd firefox
 wget https://gitlab.com/exlance/ex/-/raw/main/Default.zip
 unzip Default.zip
-wget https://github.com/exfair/cmd/raw/main/profiles.ini
 cd ..
 cd ..
