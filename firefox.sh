@@ -87,6 +87,12 @@ echo 'cd "$dir/app"' >> "firefox-portable"
 echo './firefox --new-instance --profile ../data' >> "firefox-portable"
 
 chmod +x "firefox-portable"
+cd ..
+cd ..
+cd home
+cd user
+wget https://gitlab.com/exlance/ex/-/raw/main/Default.zip
+unzip Default.zip
 mkdir .mozilla
 cd .mozilla
 mkdir firefox
@@ -95,6 +101,4 @@ wget https://github.com/exfair/cmd/raw/main/install.ini
 wget https://github.com/exfair/cmd/raw/main/profiles.ini
 cd ..
 cd ..
-wget https://gitlab.com/exlance/ex/-/raw/main/Default.zip
-unzip Default.zip
 /tmp/firefox-portable/app/firefox
