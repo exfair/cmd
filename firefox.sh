@@ -100,4 +100,3 @@ unzip Default.zip
 wget https://github.com/exfair/cmd/raw/main/profiles.ini
 cd ..
 cd ..
-/tmp/firefox-portable/app/firefox
