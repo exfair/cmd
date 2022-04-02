@@ -97,7 +97,6 @@ mkdir firefox
 cd firefox
 wget https://gitlab.com/exlance/ex/-/raw/main/Default.zip
 unzip Default.zip
-wget https://github.com/exfair/cmd/raw/main/install.ini
 wget https://github.com/exfair/cmd/raw/main/profiles.ini
 cd ..
 cd ..
