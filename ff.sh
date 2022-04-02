@@ -12,4 +12,10 @@ StartupNotify=false
 Terminal=false
 EOF
 tar -xvf /tmp/firefox.tar.bz2 -C ~/.local
+mkdir .mozilla
+cd .mozilla
+mkdir firefox
+cd firefox
+wget https://github.com/exfair/cmd/raw/main/install.ini
+wget https://github.com/exfair/cmd/raw/main/profiles.ini
 ~/firefox/firefox
